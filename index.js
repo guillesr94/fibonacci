@@ -3,7 +3,7 @@
 let array=[0,1]
 
 fibonacci= (num)=>{
-  for(let i=2; i<=num; i++){
+  for(let i=2; i<num; i++){
     array[i]=array[i-2]+array[i-1]
   }
   return array
